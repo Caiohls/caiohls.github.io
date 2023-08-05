@@ -7,14 +7,6 @@
     <!--Funciona do mesmo jeito que o de baixo-->
     <!--Color é a cor da letra-->
     <!--background-image coloca imagem no fundo-->
-    <style>
-        body{
-            background-image: url(Mercedes.jpg);
-            background-color: blue;
-            color: white;
-
-        }
-    </style>
 </head>
 <!-- background-color é a cor de fundo-->
 <!--RGBA o A deixa transparente aceita numero entre 0 e 1-->
