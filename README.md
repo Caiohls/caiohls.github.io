@@ -10,7 +10,8 @@
 </head>
 <!-- background-color é a cor de fundo-->
 <!--RGBA o A deixa transparente aceita numero entre 0 e 1-->
-<body style="background-color: red;">
-    <h1 style="color: rgba(0,0,0,0.7)">Olá, Mundo!</h1>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <h2>Este é o meu site. Mesmo sendo o primeiro dia, vou atualiza-lo até ficar do meu gosto!</h2>
 </body>
 </html>
