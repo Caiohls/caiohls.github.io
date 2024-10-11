@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+nav {
+    position: absolute; /* Posiciona o botão de voltar */
+    left: 20px; /* Distância do lado esquerdo */
+    top: 20px; /* Distância do topo */
+}
+
+nav a {
+    color: #ff6b6b; /* Cor do texto do botão */
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px; /* Tamanho do botão */
+    background-color: white; /* Fundo branco para o botão */
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s; /* Efeito de transição */
+    border: 2px solid #ff6b6b; /* Bordas do botão combinando com o tema */
+}
+
+nav a:hover {
+    background-color: #ff6b6b; /* Fundo do botão ao passar o mouse */
+    color: white; /* Muda a cor do texto ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
+}
+
+section.story {
+    background: white;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #ff6b6b;
+}
+
+footer {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
