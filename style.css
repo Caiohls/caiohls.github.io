@@ -35,17 +35,6 @@ section h2 {
     color: #ff6b6b;
 }
 
-.gallery {
-    display: flex;
-    justify-content: space-between;
-}
-
-.gallery img {
-    width: 30%;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
 .freefire img{
         width: 50%;
         height: 50%;
@@ -56,6 +45,71 @@ section h2 {
 
 .centralizar {
     text-align: center;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Galeria de imagens exibindo três fotos por vez */
+.gallery {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: calc(100% * 6 / 3); /* Largura total considerando todas as imagens */
+}
+
+.gallery img {
+    width: calc(100% / 6); /* Divide a largura total pelas 6 imagens */
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Botões de navegação */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+/* Botões de navegação */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.1); /* Ajustando a transparência */
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    z-index: 1; /* Garante que os botões fiquem acima das imagens */
+}
+
+/* Botão "anterior" à esquerda */
+.prev {
+    left: 10px; /* Posiciona à esquerda */
+}
+
+/* Botão "próximo" à direita */
+.next {
+    right: 10px; /* Posiciona à direita */
+}
+
+/* Efeito ao passar o mouse */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.3); /* Mais opaco no hover */
 }
 
 footer {
