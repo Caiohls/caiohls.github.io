@@ -164,11 +164,23 @@ body {
 }
 
 .photo-container {
-    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Centraliza o contêiner de fotos */
+    align-items: center; /* Centraliza verticalmente */
+    overflow-x: auto; /* Permite rolagem horizontal */
+    scroll-snap-type: x mandatory; /* Adiciona ancoragem ao rolar */
+    -webkit-overflow-scrolling: touch; /* Suaviza a rolagem em dispositivos móveis */
+    gap: 10px;
+    padding: 10px;
 }
 
 .photo {
-    width: 200px;
+    flex: 0 0 auto; /* Evita que as fotos encolham */
+    width: 80vw; /* Utiliza 80% da largura da tela */
+    max-width: 200px; /* Limita o tamanho máximo das fotos */
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: center; /* Centraliza ao rolar */
 }
+
+
