@@ -2,6 +2,12 @@ window.addEventListener('load', function() {
     alert('Bem-vindo à nossa história de amor! Pabline e Caio!');
 });
 
+function toggleNavbar() {
+    const navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('hidden');
+}
+
+
 let slideIndex = 0;
 const slides = document.querySelector('.gallery');
 const totalSlides = slides.children.length;
