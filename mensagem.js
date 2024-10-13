@@ -18,21 +18,21 @@ const messages = [
 
 
 const photos = [
-    "images/foto1.png",
-    "images/foto2.png",
-    "images/foto3.png",
-    "images/foto4.png",
-    "images/foto1.png",
-    "images/foto2.png",
-    "images/foto3.png",
-    "images/foto4.png",
-    "images/foto1.png",
-    "images/foto2.png",
-    "images/foto3.png",
-    "images/foto4.png",
-    "images/foto1.png",
-    "images/foto2.png",
-    "images/foto3.png"
+    "images/fotoLinda1.jpg",
+    "images/fotoLinda2.jpg",
+    "images/fotoLinda3.jpg",
+    "images/fotoLinda4.jpg",
+    "images/fotoLinda5.jpg",
+    "images/fotoLinda6.jpg",
+    "images/fotoLinda7.jpg",
+    "images/fotoLinda8.jpg",
+    "images/fotoLinda9.jpg",
+    "images/fotoLinda10.jpg",
+    "images/fotoLinda11.jpg",
+    "images/fotoLinda12.jpg",
+    "images/fotoLinda13.jpg",
+    "images/fotoLinda14.jpg",
+    "images/fotoLinda15.jpg"
 ];
 
 let currentMessageIndex = 0;
