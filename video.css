@@ -53,3 +53,25 @@ footer {
 .link-container {
     margin-top: 1000px; 
 }
+
+/* Estilos do botão */
+#reveal-button {
+    background-color: #ff5e5e;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
+}
+
+#reveal-button:hover {
+    background-color: #ff3b3b;
+}
+
+/* Estilo para a mensagem */
+#hidden-message {
+    color: #ffb6c1;
+}
