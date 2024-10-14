@@ -40,12 +40,11 @@ video {
 }
 
 /* Rodapé */
-.rodape {
-    background-color: #ff5e5e;
-    color: #fff;
-    padding: 15px;
+footer {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px;
     text-align: center;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
