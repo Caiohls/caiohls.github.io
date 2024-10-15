@@ -7,8 +7,9 @@ body {
     height: 100vh;
     margin: 0;
 }
-.centralizar {
+.frase {
     align-items: center;
+    top: 0%;
 }
 
 .Blocos {
