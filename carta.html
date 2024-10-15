@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Fofo</title>
+    <link rel="stylesheet" href="carta.css">
+</head>
+<body>
+    <p class="frase">Clique em todos os quadrados e terá uma surpresa!</p>
+    
+    <div class="Blocos">
+        <div class="container left" onclick="mostrarMensagem(1)">
+            <div class="content" style="background-color: #FF6F61;">Quadrado 1</div>
+        </div>
+        <div class="container right" onclick="mostrarMensagem(2)">
+            <div class="content" style="background-color: #6B5B95;">Quadrado 2</div>
+        </div>
+        <div class="container left" onclick="mostrarMensagem(3)">
+            <div class="content" style="background-color: #88B04B;">Quadrado 3</div>
+        </div>
+        <div class="container right" onclick="mostrarMensagem(4)">
+            <div class="content" style="background-color: #F7CAC9;">Quadrado 4</div>
+        </div>
+        <div class="container left" onclick="mostrarMensagem(5)">
+            <div class="content" style="background-color: #92A8D1;">Quadrado 5</div>
+        </div>
+        <div class="container right" onclick="mostrarMensagem(6)">
+            <div class="content" style="background-color: #955251;">Quadrado 6</div>
+        </div>
+        <div class="container left" onclick="mostrarMensagem(7)">
+            <div class="content" style="background-color: #BDAA6E;">Quadrado 7</div>
+        </div>
+        <div class="container right" onclick="mostrarMensagem(8)">
+            <div class="content" style="background-color: #D67E8A;">Quadrado 8</div>
+        </div>
+        <div class="container left" onclick="mostrarMensagem(9)">
+            <div class="content" style="background-color: #FF6347;">Quadrado 9</div>
+        </div>
+    </div>
+        <!-- Pop-up para exibir mensagens -->
+    <div id="popup" class="popup" style="display:none;">
+        <div class="popup-content">
+            <span id="fechar" class="fechar">&times;</span>
+            <p id="popup-mensagem"></p>
+        </div>
+    </div>
+    <div id="mensagem" class="mensagem"></div>
+    <!-- Pop-up para a carta -->
+<div id="carta" class="carta" style="display:none;">
+    <div class="carta-content">
+        <span class="fechar-carta" onclick="fecharCarta()">&times;</span>
+        <h2>Carta de Amor</h2>
+        <p>Você é a razão do meu sorriso, e cada quadrado clicado me faz amar você ainda mais!</p>
+    </div>
+</div>
+
+    
+    <script src="carta.js"></script>
+</body>
+</html>
