@@ -3,15 +3,15 @@ let quadradosClicados = new Array(9).fill(false);
 
 // Array de mensagens para cada quadrado
 const mensagens = [
-    "Você clicou no Quadrado 1! O amor está no ar!",
-    "Quadrado 2, o caminho para o coração está ficando mais claro.",
-    "Quadrado 3, estamos quase lá!",
-    "Quadrado 4, o amor verdadeiro é construído aos poucos.",
-    "Quadrado 5, você está no meio do caminho!",
-    "Quadrado 6, a emoção só aumenta!",
-    "Quadrado 7, o destino está mais próximo.",
-    "Quadrado 8, o amor está prestes a se revelar.",
-    "Quadrado 9, parabéns! Você desbloqueou o amor completo!"
+    "Amor, quero te beijar com os meus braços! Ouça Big Jet Plane!",
+    "Desde o momento em que nossos olhares se cruzaram, meu coração acelerou, meu peito apertou e minha vida nunca mais foi a mesma! Esse SENTIMENTO nunca se acabará!!!!!!!!!!!!!!!!!",
+    "Se eu pudesse, gravaria cada segundo ao seu lado, para reviver o calor do seu abraço, do seu corpo e a doçura do seu sorriso infinitas vezes. Pabline é o meu sempre, meu para sempre e além!",
+    "Você é o começo, o meio e o fim de todos os meus sonhos para todo o meu futuro. O amor que sinto por você, vida,  transcende qualquer sentimento, qualquer explicação; ele simplesmente é, como o sol que nasce para aquecer o dia!",
+    "Amar você, Pabline, é descobrir um universo de sensações, onde cada estrela representa uma memória, e cada galáxia é formada pelos sonhos que construiremos juntos. Você é a imensidão que me preenche por completo!",
+    "Em você, encontrei tudo o que sempre busquei: amor, felicidade, paixão e um coração que bate no mesmo tempo que o meu. Cada momento ao seu lado é um capítulo perfeito da e para a nossa história!",
+    "Se o tempo parasse, eu ainda encontraria mil maneiras de amar você em cada segundo. Você é o presente que dá sentido à minha existência, e a promessa de um futuro infinitamente belo!",
+    "Nos seus olhos, encontrei o reflexo da mais pura felicidade, e nos seus lábios, o sabor do amor verdadeiro. Cada beijo é uma promessa de eternidade!",
+    "Se houvesse uma maneira de contar quantas vezes você invade meus pensamentos, eu passaria a eternidade enumerando-as, pois amar você é uma constante em cada instante da minha vida!"
 ];
 
 // Função chamada quando um quadrado é clicado
@@ -28,6 +28,10 @@ function mostrarMensagem(index) {
         // Exibe a carta se todos os quadrados foram clicados
         document.getElementById("carta").style.display = "block";
     }
+    const quadrado = document.querySelector(`.container:nth-child(${indice})`);
+
+    // Altera a cor de fundo do quadrado para vermelho
+    quadrado.style.backgroundColor = 'red';
 }
 
 // Função para fechar o pop-up
